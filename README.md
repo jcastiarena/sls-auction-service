@@ -5,10 +5,10 @@ This service is part of a system to place bids on auctions for selling online bo
 ## Install
 
 ```
-git clone
-cd YOUR_PROJECT_NAME
+git clone git@github.com:jcastiarena/sls-auction-service.git
+cd sls-auction-service
 npm i
-sls deploy --verbose
+npm run deploy
 ```
 
 ## Usage
