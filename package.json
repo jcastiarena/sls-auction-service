@@ -1,0 +1,28 @@
+{
+  "name": "aws-node-express-dynamodb-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@middy/core": "^4.6.1",
+    "@middy/http-error-handler": "^4.6.1",
+    "@middy/http-event-normalizer": "^4.6.1",
+    "@middy/http-json-body-parser": "^4.6.1",
+    "@middy/validator": "^4.6.1",
+    "aws-sdk": "^2.1447.0",
+    "http-errors": "^2.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.14",
+    "aws-sdk": "^2.1447.0",
+    "babel-cli": "^6.26.0",
+    "serverless-bundle": "^6.0.0"
+  },
+  "scripts": {
+    "local": "sls offline",
+    "test": "serverless-bundle test",
+    "build": "babel src -d dist",
+    "deploy": "babel src -d dist && sls deploy --verbose"
+  }
+}
