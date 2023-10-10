@@ -4,6 +4,7 @@
   "description": "",
   "dependencies": {
     "@middy/core": "^4.6.1",
+    "@middy/http-cors": "^4.6.5",
     "@middy/http-error-handler": "^4.6.1",
     "@middy/http-event-normalizer": "^4.6.1",
     "@middy/http-json-body-parser": "^4.6.1",
